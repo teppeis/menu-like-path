@@ -1,0 +1,7 @@
+@import "shared";
+
+@mixin transition-property-experimental($properties: $default-transition-property) {
+  @include experimental-prop-value(transition-property, unquote($properties),
+    -moz, -webkit, -o, not -ms, not -khtml, official
+  );
+}
