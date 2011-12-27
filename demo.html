@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Menu like Path</title>
+  <link rel="stylesheet" href="path.css">
+  <script src="jquery-1.7.1.js"></script>
+  <script>
+    $(function(){
+      var $menu = $('#menu');
+      $('.open-menu', $menu).click(function(){
+        if ($menu.hasClass('never-open')) {
+          $menu.removeClass('never-open');
+        }
+        $menu.toggleClass('open');
+        return false;
+      });
+    });
+  </script>
+</head>
+<body>
+  <h1>Action menu like Path with Sass and Compass</h1>
+  <div id="menu" class="never-open">
+    <a class="open-menu" href="javascript:void(0)"><span>+</span></a>
+    <ul class="actions">
+      <li><a class="item" href="javascript:void(0)">1</a></li>
+      <li><a class="item" href="javascript:void(0)">2</a></li>
+      <li><a class="item" href="javascript:void(0)">3</a></li>
+      <li><a class="item" href="javascript:void(0)">4</a></li>
+      <li><a class="item" href="javascript:void(0)">5</a></li>
+      <li><a class="item" href="javascript:void(0)">6</a></li>
+    </ul>
+  </div>
+</body>
+</html>
+
