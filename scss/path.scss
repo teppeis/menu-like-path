@@ -72,7 +72,7 @@ $circle-num: 6;
     @include animation-duration($duration);
 }
 
-@-webkit-keyframes open-rotate {
+@keyframes open-rotate {
   0% {
     @include transform(rotate(0deg));
   }    
@@ -81,7 +81,7 @@ $circle-num: 6;
   }
 }
 
-@-webkit-keyframes close-rotate {
+@keyframes close-rotate {
   0% {
     @include transform(rotate(720deg));
   }    
@@ -107,7 +107,7 @@ $circle-num: 6;
 @for $i from 1 through $circle-num {
   $left:   cos(pi() / 2 * ($i - 1) / ($circle-num - 1)) * $menu-size;
   $bottom: sin(pi() / 2 * ($i - 1) / ($circle-num - 1)) * $menu-size;
-  @-webkit-keyframes 'open-#{$i}' {
+  @keyframes 'open-#{$i}' {
     0% {
         left: 0px;
         bottom: 0px;
@@ -126,7 +126,7 @@ $circle-num: 6;
     }
   }
 
-  @-webkit-keyframes 'close-#{$i}' {
+  @keyframes 'close-#{$i}' {
     0% {
         left: $left;
         bottom: $bottom;
