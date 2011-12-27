@@ -97,7 +97,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   background-image: -o-linear-gradient(top, #ff3333 0%, #dd5522 100%);
   background-image: -ms-linear-gradient(top, #ff3333 0%, #dd5522 100%);
   background-image: linear-gradient(top, #ff3333 0%, #dd5522 100%);
-  text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 1px;
+  text-shadow: rgba(0, 0, 0, 0.5) 0 0 1px;
   text-align: center;
   text-decoration: none;
   color: #fff;
