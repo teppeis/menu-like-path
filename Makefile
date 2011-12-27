@@ -4,4 +4,4 @@ compile:
 	compass compile
 
 clean:
-	rm css/*
+	rm -rf css/* .sass-cache
