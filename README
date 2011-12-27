@@ -1,7 +1,7 @@
 Action menu like Path
 =====================
 
-Depends on Sass-3.2.0.alpha.35 and Compass-1.5.16.
+Depends on Sass-3.2.0.alpha.35 and Compass-0.11.6.
 
 How to make:
 * gem install sass -v 3.2.0.alpha.35
