@@ -27,6 +27,7 @@ $circle-num: 6;
     @include box-shadow(rgba(0,0,0,.5) 0 0 2px 1px, inset rgba(0,0,0,.5) 0 0 1px 0);
     background-color: #ff3333;
     @include background-image(linear-gradient(top, #ff3333 0%, #dd5522 100%));
+    @include text-shadow(rgba(0,0,0,.5) 1px 1px 1px);
     text-align: center;
     text-decoration: none;
     color: #fff;
@@ -34,13 +35,19 @@ $circle-num: 6;
     font-weight: bold;
     line-height: 20px;
     z-index: 1;
+}
+
+.open-menu span {
+    width: 24px;
+    height: 24px;
+    display: block;
     @include transition-property-experimental(transform);
     @include transition-duration(0.3s);
     @include transition-timing-function(ease);
 }
 
-.open .open-menu {
-    @include transform(rotate(-45deg));
+.open .open-menu span {
+    @include transform(rotate(-135deg));
 }
 
 .actions {
@@ -59,7 +66,8 @@ $circle-num: 6;
     height: 18px;
     border: 3px white solid;
     @include border-radius(50%);
-    @include single-box-shadow(rgba(0,0,0,.5), 0, 0, 2px, 1px);
+    @include box-shadow(rgba(0,0,0,.5) 0 0 2px 1px);
+    @include text-shadow(rgba(255,255,255,.8) 0 0 1px);
     text-align: center;
     font-size: 10px;
     font-weight: bold;
