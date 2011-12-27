@@ -27,7 +27,7 @@ $circle-num: 6;
     @include box-shadow(rgba(0,0,0,.5) 0 0 2px 1px, inset rgba(0,0,0,.5) 0 0 1px 0);
     background-color: #ff3333;
     @include background-image(linear-gradient(top, #ff3333 0%, #dd5522 100%));
-    @include text-shadow(rgba(0,0,0,.5) 1px 1px 1px);
+    @include text-shadow(rgba(0,0,0,.5) 0 0 1px);
     text-align: center;
     text-decoration: none;
     color: #fff;
@@ -80,7 +80,7 @@ $circle-num: 6;
     @include animation-duration($duration);
 }
 
-@keyframes open-rotate {
+@include keyframes(open-rotate) {
   0% {
     @include transform(rotate(0deg));
   }    
@@ -89,7 +89,7 @@ $circle-num: 6;
   }
 }
 
-@keyframes close-rotate {
+@include keyframes(close-rotate) {
   0% {
     @include transform(rotate(720deg));
   }    
@@ -115,7 +115,7 @@ $circle-num: 6;
 @for $i from 1 through $circle-num {
   $left:   cos(pi() / 2 * ($i - 1) / ($circle-num - 1)) * $menu-size;
   $bottom: sin(pi() / 2 * ($i - 1) / ($circle-num - 1)) * $menu-size;
-  @keyframes 'open-#{$i}' {
+  @include keyframes(open-#{$i}) {
     0% {
         left: 0px;
         bottom: 0px;
@@ -134,7 +134,7 @@ $circle-num: 6;
     }
   }
 
-  @keyframes 'close-#{$i}' {
+  @include keyframes(close-#{$i}) {
     0% {
         left: $left;
         bottom: $bottom;
