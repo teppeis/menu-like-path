@@ -321,10 +321,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -webkit-animation-timing-function: ease;
   -ms-animation-timing-function: ease;
   animation-timing-function: ease;
-  -moz-animation-duration: 0.45s;
-  -webkit-animation-duration: 0.45s;
-  -ms-animation-duration: 0.45s;
-  animation-duration: 0.45s;
   display: inline-block;
 }
 

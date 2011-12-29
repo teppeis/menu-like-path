@@ -103,7 +103,6 @@ $circle-num: 6;
   color: #fff;
   @include animation-name(close-rotate);
   @include animation-timing-function(ease);
-  @include animation-duration($duration);
   display: inline-block;
 }
 
