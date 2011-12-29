@@ -113,7 +113,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -o-transition-timing-function: ease;
   transition-timing-function: ease;
 }
-
 .open .open-menu span {
   -moz-transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
@@ -127,7 +126,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   left: 3px;
   bottom: 3px;
 }
-
 .never-open .actions {
   display: none;
 }
@@ -323,7 +321,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   animation-timing-function: ease;
   display: inline-block;
 }
-
 .open .item {
   -moz-animation-name: open-rotate;
   -webkit-animation-name: open-rotate;

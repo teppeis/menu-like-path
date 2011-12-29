@@ -9,75 +9,73 @@ $menu-size: 100px;
 $circle-num: 6;
 
 #menu {
-    width: 200px;
-    height: 200px;
-    margin: 3px;
-    position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 3px;
+  position: relative;
 }
 
 .open-menu {
-    left: 0;
-    bottom: 0;
-    position: absolute;
-    display: block;
-    width: 24px;
-    height: 24px;
-    border: 3px white solid;
-    @include border-radius(50%);
-    @include box-shadow(rgba(0,0,0,.5) 0 0 2px 1px, inset rgba(0,0,0,.5) 0 0 1px 0);
-    background-color: #ff3333;
-    @include background-image(linear-gradient(top, #ff3333 0%, #dd5522 100%));
-    @include text-shadow(rgba(0,0,0,.5) 0 0 1px);
-    text-align: center;
-    text-decoration: none;
-    color: #fff;
-    font-size: 22px;
-    font-weight: bold;
-    line-height: 20px;
-    z-index: 1;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  display: block;
+  width: 24px;
+  height: 24px;
+  border: 3px white solid;
+  @include border-radius(50%);
+  @include box-shadow(rgba(0,0,0,.5) 0 0 2px 1px, inset rgba(0,0,0,.5) 0 0 1px 0);
+  background-color: #ff3333;
+  @include background-image(linear-gradient(top, #ff3333 0%, #dd5522 100%));
+  @include text-shadow(rgba(0,0,0,.5) 0 0 1px);
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 20px;
+  z-index: 1;
 }
 
 .open-menu span {
-    width: 24px;
-    height: 24px;
-    display: block;
-    @include transition-property-experimental(transform);
-    @include transition-duration(0.3s);
-    @include transition-timing-function(ease);
-}
-
-.open .open-menu span {
+  width: 24px;
+  height: 24px;
+  display: block;
+  @include transition-property-experimental(transform);
+  @include transition-duration(0.3s);
+  @include transition-timing-function(ease);
+  .open & {
     @include transform(rotate(-135deg));
+  }
 }
 
 .actions {
-    position: absolute;
-    left: 3px;
-    bottom: 3px;
-}
-
-.never-open .actions {
+  position: absolute;
+  left: 3px;
+  bottom: 3px;
+  .never-open & {
     display: none;
+  }
 }
 
 .actions li {
-    background-color: #444;
-    width: 18px;
-    height: 18px;
-    border: 3px white solid;
-    @include border-radius(50%);
-    @include box-shadow(rgba(0,0,0,.5) 0 0 2px 1px);
-    @include text-shadow(rgba(255,255,255,.8) 0 0 1px);
-    text-align: center;
-    font-size: 10px;
-    font-weight: bold;
-    line-height: 20px;
-    display: inline-block;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    @include animation-fill-mode(both);
-    @include animation-duration($duration);
+  background-color: #444;
+  width: 18px;
+  height: 18px;
+  border: 3px white solid;
+  @include border-radius(50%);
+  @include box-shadow(rgba(0,0,0,.5) 0 0 2px 1px);
+  @include text-shadow(rgba(255,255,255,.8) 0 0 1px);
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 20px;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  @include animation-fill-mode(both);
+  @include animation-duration($duration);
 }
 
 @include keyframes(open-rotate) {
@@ -104,11 +102,10 @@ $circle-num: 6;
   @include animation-name(close-rotate);
   @include animation-timing-function(ease);
   display: inline-block;
-}
-
-.open .item {
-  @include animation-name(open-rotate);
-  @include animation-timing-function(ease);
+  .open & {
+    @include animation-name(open-rotate);
+    @include animation-timing-function(ease);
+  }
 }
 
 @for $i from 1 through $circle-num {
@@ -116,35 +113,35 @@ $circle-num: 6;
   $bottom: sin(pi() / 2 * ($i - 1) / ($circle-num - 1)) * $menu-size;
   @include keyframes(open-#{$i}) {
     0% {
-        left: 0px;
-        bottom: 0px;
+      left: 0px;
+      bottom: 0px;
     }    
     60% {
-        left: $left * 1.1;
-        bottom: $bottom * 1.1;
+      left: $left * 1.1;
+      bottom: $bottom * 1.1;
     }
     80% {
-        left: $left * 0.95;
-        bottom: $bottom * 0.95;
+      left: $left * 0.95;
+      bottom: $bottom * 0.95;
     }
     100% {
-        left: $left;
-        bottom: $bottom;
+      left: $left;
+      bottom: $bottom;
     }
   }
 
   @include keyframes(close-#{$i}) {
     0% {
-        left: $left;
-        bottom: $bottom;
+      left: $left;
+      bottom: $bottom;
     }    
     60% {
-        left: $left * 1.2;
-        bottom: $bottom * 1.2;
+      left: $left * 1.2;
+      bottom: $bottom * 1.2;
     }
     100% {
-        left: 0px;
-        bottom: 0px;
+      left: 0px;
+      bottom: 0px;
     }
   }
 
