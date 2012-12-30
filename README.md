@@ -8,13 +8,12 @@ http://teppeis.github.com/menu-like-path/
 http://d.hatena.ne.jp/teppeis/20111228/1325029083
 
 ### Dependencies:
-* Sass-3.2.0.alpha.35
-* Compass-0.11.6
+* Sass-3.2.X
+* Compass-0.12.X
 
 ### How to make:
 ```bash
-gem install sass -v 3.2.0.alpha.35
-gem install compass
+gem install sass compass
 make
 ```
 
