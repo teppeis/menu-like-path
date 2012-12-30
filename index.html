@@ -21,25 +21,39 @@
     body {
       margin: 10px;
     }
+    .desc {
+      font-size: 0.875em;
+      line-height: 1.5em;
+      font-family: Helvetica, Arial, Tahoma, sans-serif;
+    }
     h1 {
       margin-top: 5px;
       margin-left: 5px;
       margin-bottom: 20px;
-      font-size: 25px;
+      font-weight: bold;
+      margin-bottom: 0.5em;
+      font-size: 2.57em;
+      line-height: 1em;
     }
     ul {
       padding-left: 40px;
       list-style-type: disc;
     }
+    #menu {
+      height: 160px;
+      margin-left: 10px;
+    }
   </style>
 </head>
 <body>
-  <h1>Action menu like Path with Sass and Compass</h1>
-  <ul>
-    <li>Source: <a href="https://github.com/teppeis/menu-like-path">https://github.com/teppeis/menu-like-path</a></li>
-    <li>Blog: <a href="http://d.hatena.ne.jp/teppeis/20111228/1325029083">http://d.hatena.ne.jp/teppeis/20111228/1325029083</a></li>
-    <li>License: MIT License</li>
-  </ul>
+  <div class="desc">
+    <h1>Action menu like Path with Sass and Compass</h1>
+    <ul>
+      <li>Source: <a href="https://github.com/teppeis/menu-like-path">https://github.com/teppeis/menu-like-path</a></li>
+      <li>Blog: <a href="http://d.hatena.ne.jp/teppeis/20111228/1325029083">http://d.hatena.ne.jp/teppeis/20111228/1325029083</a></li>
+      <li>License: MIT License</li>
+    </ul>
+  </div>
   <div id="menu" class="never-open">
     <a class="open-menu" href="javascript:void(0)"><span>+</span></a>
     <ul class="actions">
