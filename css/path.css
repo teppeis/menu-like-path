@@ -97,8 +97,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   width: 24px;
   height: 24px;
   display: block;
-  -moz-transition-property: -moz-transform;
   -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
   -o-transition-property: -o-transform;
   transition-property: transform;
   -webkit-transition-duration: 0.3s;

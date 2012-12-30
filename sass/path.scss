@@ -1,6 +1,5 @@
 @import "compass";
 @import "animation";
-@import "transition";
 
 @include global-reset();
 
@@ -41,7 +40,7 @@ $circle-num: 6;
   width: 24px;
   height: 24px;
   display: block;
-  @include transition-property-experimental(transform);
+  @include transition-property(transform);
   @include transition-duration(0.3s);
   @include transition-timing-function(ease);
   .open & {
