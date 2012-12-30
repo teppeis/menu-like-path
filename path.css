@@ -1,4 +1,3 @@
-/* line 17, ../../../.rvm/gems/ruby-1.9.2-p290@sass-3.2.0/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -15,63 +14,53 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
   font: inherit;
+  font-size: 100%;
   vertical-align: baseline;
 }
 
-/* line 20, ../../../.rvm/gems/ruby-1.9.2-p290@sass-3.2.0/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-body {
+html {
   line-height: 1;
 }
 
-/* line 22, ../../../.rvm/gems/ruby-1.9.2-p290@sass-3.2.0/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, ../../../.rvm/gems/ruby-1.9.2-p290@sass-3.2.0/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, ../../../.rvm/gems/ruby-1.9.2-p290@sass-3.2.0/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, ../../../.rvm/gems/ruby-1.9.2-p290@sass-3.2.0/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, ../../../.rvm/gems/ruby-1.9.2-p290@sass-3.2.0/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, ../../../.rvm/gems/ruby-1.9.2-p290@sass-3.2.0/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, ../../../.rvm/gems/ruby-1.9.2-p290@sass-3.2.0/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
-/* line 11, ../sass/path.scss */
 #menu {
   width: 200px;
-  height: 160px;
+  height: 200px;
   margin: 3px;
   position: relative;
 }
 
-/* line 18, ../sass/path.scss */
 .open-menu {
   left: 0;
   bottom: 0;
@@ -80,22 +69,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   width: 24px;
   height: 24px;
   border: 3px white solid;
-  -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
-  -o-border-radius: 50%;
+  -moz-border-radius: 50%;
   -ms-border-radius: 50%;
-  -khtml-border-radius: 50%;
+  -o-border-radius: 50%;
   border-radius: 50%;
-  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 0 2px 1px, inset rgba(0, 0, 0, 0.5) 0 0 1px 0;
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 0 2px 1px, inset rgba(0, 0, 0, 0.5) 0 0 1px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.5) 0 0 2px 1px, inset rgba(0, 0, 0, 0.5) 0 0 1px 0;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 0 2px 1px, inset rgba(0, 0, 0, 0.5) 0 0 1px 0;
   box-shadow: rgba(0, 0, 0, 0.5) 0 0 2px 1px, inset rgba(0, 0, 0, 0.5) 0 0 1px 0;
   background-color: #ff3333;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff3333), color-stop(100%, #dd5522));
   background-image: -webkit-linear-gradient(top, #ff3333 0%, #dd5522 100%);
   background-image: -moz-linear-gradient(top, #ff3333 0%, #dd5522 100%);
   background-image: -o-linear-gradient(top, #ff3333 0%, #dd5522 100%);
-  background-image: -ms-linear-gradient(top, #ff3333 0%, #dd5522 100%);
   background-image: linear-gradient(top, #ff3333 0%, #dd5522 100%);
   text-shadow: rgba(0, 0, 0, 0.5) 0 0 1px;
   text-align: center;
@@ -107,61 +93,52 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   z-index: 1;
 }
 
-/* line 40, ../sass/path.scss */
 .open-menu span {
   width: 24px;
   height: 24px;
   display: block;
-  -moz-transition-property: -moz-transform;
   -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
   -o-transition-property: -o-transform;
   transition-property: transform;
-  -moz-transition-duration: 0.3s;
   -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
   transition-duration: 0.3s;
-  -moz-transition-timing-function: ease;
   -webkit-transition-timing-function: ease;
+  -moz-transition-timing-function: ease;
   -o-transition-timing-function: ease;
   transition-timing-function: ease;
 }
-
-/* line 49, ../sass/path.scss */
 .open .open-menu span {
-  -moz-transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
-  -o-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
   -ms-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
   transform: rotate(-135deg);
 }
 
-/* line 53, ../sass/path.scss */
 .actions {
   position: absolute;
   left: 3px;
   bottom: 3px;
 }
-
-/* line 59, ../sass/path.scss */
 .never-open .actions {
   display: none;
 }
 
-/* line 63, ../sass/path.scss */
 .actions li {
   background-color: #444;
   width: 18px;
   height: 18px;
   border: 3px white solid;
-  -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
-  -o-border-radius: 50%;
+  -moz-border-radius: 50%;
   -ms-border-radius: 50%;
-  -khtml-border-radius: 50%;
+  -o-border-radius: 50%;
   border-radius: 50%;
-  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 0 2px 1px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 0 2px 1px;
-  -o-box-shadow: rgba(0, 0, 0, 0.5) 0 0 2px 1px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 0 2px 1px;
   box-shadow: rgba(0, 0, 0, 0.5) 0 0 2px 1px;
   text-shadow: rgba(255, 255, 255, 0.8) 0 0 1px;
   text-align: center;
@@ -172,227 +149,158 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   position: absolute;
   left: 0;
   bottom: 0;
-  -moz-animation-fill-mode: both;
   -webkit-animation-fill-mode: both;
-  -ms-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
   animation-fill-mode: both;
-  -moz-animation-duration: 0.45s;
   -webkit-animation-duration: 0.45s;
-  -ms-animation-duration: 0.45s;
+  -moz-animation-duration: 0.45s;
   animation-duration: 0.45s;
 }
 
 @-moz-keyframes open-rotate {
-  /* line 84, ../sass/path.scss */
   0% {
-    -moz-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
     transform: rotate(0deg);
   }
 
-  /* line 87, ../sass/path.scss */
   100% {
-    -moz-transform: rotate(720deg);
     -webkit-transform: rotate(720deg);
-    -o-transform: rotate(720deg);
+    -moz-transform: rotate(720deg);
     -ms-transform: rotate(720deg);
+    -o-transform: rotate(720deg);
     transform: rotate(720deg);
   }
 }
 
 @-webkit-keyframes open-rotate {
-  /* line 84, ../sass/path.scss */
   0% {
-    -moz-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
     transform: rotate(0deg);
   }
 
-  /* line 87, ../sass/path.scss */
   100% {
-    -moz-transform: rotate(720deg);
     -webkit-transform: rotate(720deg);
-    -o-transform: rotate(720deg);
-    -ms-transform: rotate(720deg);
-    transform: rotate(720deg);
-  }
-}
-
-@-ms-keyframes open-rotate {
-  /* line 84, ../sass/path.scss */
-  0% {
-    -moz-transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-
-  /* line 87, ../sass/path.scss */
-  100% {
     -moz-transform: rotate(720deg);
-    -webkit-transform: rotate(720deg);
-    -o-transform: rotate(720deg);
     -ms-transform: rotate(720deg);
+    -o-transform: rotate(720deg);
     transform: rotate(720deg);
   }
 }
 
 @keyframes open-rotate {
-  /* line 84, ../sass/path.scss */
   0% {
-    -moz-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
     transform: rotate(0deg);
   }
 
-  /* line 87, ../sass/path.scss */
   100% {
-    -moz-transform: rotate(720deg);
     -webkit-transform: rotate(720deg);
-    -o-transform: rotate(720deg);
+    -moz-transform: rotate(720deg);
     -ms-transform: rotate(720deg);
+    -o-transform: rotate(720deg);
     transform: rotate(720deg);
   }
 }
 
 @-moz-keyframes close-rotate {
-  /* line 93, ../sass/path.scss */
   0% {
-    -moz-transform: rotate(720deg);
     -webkit-transform: rotate(720deg);
-    -o-transform: rotate(720deg);
+    -moz-transform: rotate(720deg);
     -ms-transform: rotate(720deg);
+    -o-transform: rotate(720deg);
     transform: rotate(720deg);
   }
 
-  /* line 96, ../sass/path.scss */
   100% {
-    -moz-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
     transform: rotate(0deg);
   }
 }
 
 @-webkit-keyframes close-rotate {
-  /* line 93, ../sass/path.scss */
   0% {
-    -moz-transform: rotate(720deg);
     -webkit-transform: rotate(720deg);
-    -o-transform: rotate(720deg);
+    -moz-transform: rotate(720deg);
     -ms-transform: rotate(720deg);
+    -o-transform: rotate(720deg);
     transform: rotate(720deg);
   }
 
-  /* line 96, ../sass/path.scss */
   100% {
-    -moz-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-}
-
-@-ms-keyframes close-rotate {
-  /* line 93, ../sass/path.scss */
-  0% {
-    -moz-transform: rotate(720deg);
-    -webkit-transform: rotate(720deg);
-    -o-transform: rotate(720deg);
-    -ms-transform: rotate(720deg);
-    transform: rotate(720deg);
-  }
-
-  /* line 96, ../sass/path.scss */
-  100% {
     -moz-transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
     transform: rotate(0deg);
   }
 }
 
 @keyframes close-rotate {
-  /* line 93, ../sass/path.scss */
   0% {
-    -moz-transform: rotate(720deg);
     -webkit-transform: rotate(720deg);
-    -o-transform: rotate(720deg);
+    -moz-transform: rotate(720deg);
     -ms-transform: rotate(720deg);
+    -o-transform: rotate(720deg);
     transform: rotate(720deg);
   }
 
-  /* line 96, ../sass/path.scss */
   100% {
-    -moz-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
     transform: rotate(0deg);
   }
 }
 
-/* line 101, ../sass/path.scss */
 .item {
   text-decoration: none;
   color: #fff;
-  -moz-animation-name: close-rotate;
   -webkit-animation-name: close-rotate;
-  -ms-animation-name: close-rotate;
+  -moz-animation-name: close-rotate;
   animation-name: close-rotate;
-  -moz-animation-timing-function: ease;
   -webkit-animation-timing-function: ease;
-  -ms-animation-timing-function: ease;
+  -moz-animation-timing-function: ease;
   animation-timing-function: ease;
-  -moz-animation-duration: 0.45s;
-  -webkit-animation-duration: 0.45s;
-  -ms-animation-duration: 0.45s;
-  animation-duration: 0.45s;
   display: inline-block;
 }
-
-/* line 110, ../sass/path.scss */
 .open .item {
-  -moz-animation-name: open-rotate;
   -webkit-animation-name: open-rotate;
-  -ms-animation-name: open-rotate;
+  -moz-animation-name: open-rotate;
   animation-name: open-rotate;
-  -moz-animation-timing-function: ease;
   -webkit-animation-timing-function: ease;
-  -ms-animation-timing-function: ease;
+  -moz-animation-timing-function: ease;
   animation-timing-function: ease;
 }
 
 @-moz-keyframes open-1 {
-  /* line 119, ../sass/path.scss */
   0% {
     left: 0px;
     bottom: 0px;
   }
 
-  /* line 123, ../sass/path.scss */
   60% {
     left: 110.0px;
     bottom: 0px;
   }
 
-  /* line 127, ../sass/path.scss */
   80% {
     left: 95px;
     bottom: 0px;
   }
 
-  /* line 131, ../sass/path.scss */
   100% {
     left: 100px;
     bottom: 0px;
@@ -400,51 +308,21 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 @-webkit-keyframes open-1 {
-  /* line 119, ../sass/path.scss */
   0% {
     left: 0px;
     bottom: 0px;
   }
 
-  /* line 123, ../sass/path.scss */
   60% {
     left: 110.0px;
     bottom: 0px;
   }
 
-  /* line 127, ../sass/path.scss */
   80% {
     left: 95px;
     bottom: 0px;
   }
 
-  /* line 131, ../sass/path.scss */
-  100% {
-    left: 100px;
-    bottom: 0px;
-  }
-}
-
-@-ms-keyframes open-1 {
-  /* line 119, ../sass/path.scss */
-  0% {
-    left: 0px;
-    bottom: 0px;
-  }
-
-  /* line 123, ../sass/path.scss */
-  60% {
-    left: 110.0px;
-    bottom: 0px;
-  }
-
-  /* line 127, ../sass/path.scss */
-  80% {
-    left: 95px;
-    bottom: 0px;
-  }
-
-  /* line 131, ../sass/path.scss */
   100% {
     left: 100px;
     bottom: 0px;
@@ -452,25 +330,21 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 @keyframes open-1 {
-  /* line 119, ../sass/path.scss */
   0% {
     left: 0px;
     bottom: 0px;
   }
 
-  /* line 123, ../sass/path.scss */
   60% {
     left: 110.0px;
     bottom: 0px;
   }
 
-  /* line 127, ../sass/path.scss */
   80% {
     left: 95px;
     bottom: 0px;
   }
 
-  /* line 131, ../sass/path.scss */
   100% {
     left: 100px;
     bottom: 0px;
@@ -478,19 +352,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 @-moz-keyframes close-1 {
-  /* line 138, ../sass/path.scss */
   0% {
     left: 100px;
     bottom: 0px;
   }
 
-  /* line 142, ../sass/path.scss */
   60% {
     left: 120px;
     bottom: 0px;
   }
 
-  /* line 146, ../sass/path.scss */
   100% {
     left: 0px;
     bottom: 0px;
@@ -498,39 +369,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 @-webkit-keyframes close-1 {
-  /* line 138, ../sass/path.scss */
   0% {
     left: 100px;
     bottom: 0px;
   }
 
-  /* line 142, ../sass/path.scss */
   60% {
     left: 120px;
     bottom: 0px;
   }
 
-  /* line 146, ../sass/path.scss */
-  100% {
-    left: 0px;
-    bottom: 0px;
-  }
-}
-
-@-ms-keyframes close-1 {
-  /* line 138, ../sass/path.scss */
-  0% {
-    left: 100px;
-    bottom: 0px;
-  }
-
-  /* line 142, ../sass/path.scss */
-  60% {
-    left: 120px;
-    bottom: 0px;
-  }
-
-  /* line 146, ../sass/path.scss */
   100% {
     left: 0px;
     bottom: 0px;
@@ -538,193 +386,137 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 @keyframes close-1 {
-  /* line 138, ../sass/path.scss */
   0% {
     left: 100px;
     bottom: 0px;
   }
 
-  /* line 142, ../sass/path.scss */
   60% {
     left: 120px;
     bottom: 0px;
   }
 
-  /* line 146, ../sass/path.scss */
   100% {
     left: 0px;
     bottom: 0px;
   }
 }
 
-/* line 153, ../sass/path.scss */
 .open li:nth-of-type(1) {
   left: 100px;
   bottom: 0px;
-  -moz-animation-name: open-1;
   -webkit-animation-name: open-1;
-  -ms-animation-name: open-1;
+  -moz-animation-name: open-1;
   animation-name: open-1;
-  -moz-animation-timing-function: ease;
   -webkit-animation-timing-function: ease;
-  -ms-animation-timing-function: ease;
+  -moz-animation-timing-function: ease;
   animation-timing-function: ease;
-  -moz-animation-delay: 0.1s;
   -webkit-animation-delay: 0.1s;
-  -ms-animation-delay: 0.1s;
+  -moz-animation-delay: 0.1s;
   animation-delay: 0.1s;
 }
 
-/* line 161, ../sass/path.scss */
 .open li:nth-of-type(1) .item {
-  -moz-animation-duration: 0.55s;
   -webkit-animation-duration: 0.55s;
-  -ms-animation-duration: 0.55s;
+  -moz-animation-duration: 0.55s;
   animation-duration: 0.55s;
 }
 
-/* line 166, ../sass/path.scss */
 li:nth-of-type(1) {
-  -moz-animation-name: close-1;
   -webkit-animation-name: close-1;
-  -ms-animation-name: close-1;
+  -moz-animation-name: close-1;
   animation-name: close-1;
-  -moz-animation-timing-function: ease;
   -webkit-animation-timing-function: ease;
-  -ms-animation-timing-function: ease;
+  -moz-animation-timing-function: ease;
   animation-timing-function: ease;
-  -moz-animation-delay: 0s;
   -webkit-animation-delay: 0s;
-  -ms-animation-delay: 0s;
+  -moz-animation-delay: 0s;
   animation-delay: 0s;
 }
 
-/* line 172, ../sass/path.scss */
 li:nth-of-type(1) .item {
-  -moz-animation-duration: 0.45s;
   -webkit-animation-duration: 0.45s;
-  -ms-animation-duration: 0.45s;
+  -moz-animation-duration: 0.45s;
   animation-duration: 0.45s;
 }
 
 @-moz-keyframes open-2 {
-  /* line 119, ../sass/path.scss */
   0% {
     left: 0px;
     bottom: 0px;
   }
 
-  /* line 123, ../sass/path.scss */
   60% {
-    left: 104.616px;
-    bottom: 33.992px;
+    left: 104.61622px;
+    bottom: 33.99187px;
   }
 
-  /* line 127, ../sass/path.scss */
   80% {
-    left: 90.35px;
-    bottom: 29.357px;
+    left: 90.35037px;
+    bottom: 29.35661px;
   }
 
-  /* line 131, ../sass/path.scss */
   100% {
-    left: 95.106px;
-    bottom: 30.902px;
+    left: 95.10565px;
+    bottom: 30.9017px;
   }
 }
 
 @-webkit-keyframes open-2 {
-  /* line 119, ../sass/path.scss */
   0% {
     left: 0px;
     bottom: 0px;
   }
 
-  /* line 123, ../sass/path.scss */
   60% {
-    left: 104.616px;
-    bottom: 33.992px;
+    left: 104.61622px;
+    bottom: 33.99187px;
   }
 
-  /* line 127, ../sass/path.scss */
   80% {
-    left: 90.35px;
-    bottom: 29.357px;
+    left: 90.35037px;
+    bottom: 29.35661px;
   }
 
-  /* line 131, ../sass/path.scss */
   100% {
-    left: 95.106px;
-    bottom: 30.902px;
-  }
-}
-
-@-ms-keyframes open-2 {
-  /* line 119, ../sass/path.scss */
-  0% {
-    left: 0px;
-    bottom: 0px;
-  }
-
-  /* line 123, ../sass/path.scss */
-  60% {
-    left: 104.616px;
-    bottom: 33.992px;
-  }
-
-  /* line 127, ../sass/path.scss */
-  80% {
-    left: 90.35px;
-    bottom: 29.357px;
-  }
-
-  /* line 131, ../sass/path.scss */
-  100% {
-    left: 95.106px;
-    bottom: 30.902px;
+    left: 95.10565px;
+    bottom: 30.9017px;
   }
 }
 
 @keyframes open-2 {
-  /* line 119, ../sass/path.scss */
   0% {
     left: 0px;
     bottom: 0px;
   }
 
-  /* line 123, ../sass/path.scss */
   60% {
-    left: 104.616px;
-    bottom: 33.992px;
+    left: 104.61622px;
+    bottom: 33.99187px;
   }
 
-  /* line 127, ../sass/path.scss */
   80% {
-    left: 90.35px;
-    bottom: 29.357px;
+    left: 90.35037px;
+    bottom: 29.35661px;
   }
 
-  /* line 131, ../sass/path.scss */
   100% {
-    left: 95.106px;
-    bottom: 30.902px;
+    left: 95.10565px;
+    bottom: 30.9017px;
   }
 }
 
 @-moz-keyframes close-2 {
-  /* line 138, ../sass/path.scss */
   0% {
-    left: 95.106px;
-    bottom: 30.902px;
+    left: 95.10565px;
+    bottom: 30.9017px;
   }
 
-  /* line 142, ../sass/path.scss */
   60% {
-    left: 114.127px;
-    bottom: 37.082px;
+    left: 114.12678px;
+    bottom: 37.08204px;
   }
 
-  /* line 146, ../sass/path.scss */
   100% {
     left: 0px;
     bottom: 0px;
@@ -732,39 +524,16 @@ li:nth-of-type(1) .item {
 }
 
 @-webkit-keyframes close-2 {
-  /* line 138, ../sass/path.scss */
   0% {
-    left: 95.106px;
-    bottom: 30.902px;
+    left: 95.10565px;
+    bottom: 30.9017px;
   }
 
-  /* line 142, ../sass/path.scss */
   60% {
-    left: 114.127px;
-    bottom: 37.082px;
+    left: 114.12678px;
+    bottom: 37.08204px;
   }
 
-  /* line 146, ../sass/path.scss */
-  100% {
-    left: 0px;
-    bottom: 0px;
-  }
-}
-
-@-ms-keyframes close-2 {
-  /* line 138, ../sass/path.scss */
-  0% {
-    left: 95.106px;
-    bottom: 30.902px;
-  }
-
-  /* line 142, ../sass/path.scss */
-  60% {
-    left: 114.127px;
-    bottom: 37.082px;
-  }
-
-  /* line 146, ../sass/path.scss */
   100% {
     left: 0px;
     bottom: 0px;
@@ -772,193 +541,137 @@ li:nth-of-type(1) .item {
 }
 
 @keyframes close-2 {
-  /* line 138, ../sass/path.scss */
   0% {
-    left: 95.106px;
-    bottom: 30.902px;
+    left: 95.10565px;
+    bottom: 30.9017px;
   }
 
-  /* line 142, ../sass/path.scss */
   60% {
-    left: 114.127px;
-    bottom: 37.082px;
+    left: 114.12678px;
+    bottom: 37.08204px;
   }
 
-  /* line 146, ../sass/path.scss */
   100% {
     left: 0px;
     bottom: 0px;
   }
 }
 
-/* line 153, ../sass/path.scss */
 .open li:nth-of-type(2) {
-  left: 95.106px;
-  bottom: 30.902px;
-  -moz-animation-name: open-2;
+  left: 95.10565px;
+  bottom: 30.9017px;
   -webkit-animation-name: open-2;
-  -ms-animation-name: open-2;
+  -moz-animation-name: open-2;
   animation-name: open-2;
-  -moz-animation-timing-function: ease;
   -webkit-animation-timing-function: ease;
-  -ms-animation-timing-function: ease;
+  -moz-animation-timing-function: ease;
   animation-timing-function: ease;
-  -moz-animation-delay: 0.08s;
   -webkit-animation-delay: 0.08s;
-  -ms-animation-delay: 0.08s;
+  -moz-animation-delay: 0.08s;
   animation-delay: 0.08s;
 }
 
-/* line 161, ../sass/path.scss */
 .open li:nth-of-type(2) .item {
-  -moz-animation-duration: 0.53s;
   -webkit-animation-duration: 0.53s;
-  -ms-animation-duration: 0.53s;
+  -moz-animation-duration: 0.53s;
   animation-duration: 0.53s;
 }
 
-/* line 166, ../sass/path.scss */
 li:nth-of-type(2) {
-  -moz-animation-name: close-2;
   -webkit-animation-name: close-2;
-  -ms-animation-name: close-2;
+  -moz-animation-name: close-2;
   animation-name: close-2;
-  -moz-animation-timing-function: ease;
   -webkit-animation-timing-function: ease;
-  -ms-animation-timing-function: ease;
+  -moz-animation-timing-function: ease;
   animation-timing-function: ease;
-  -moz-animation-delay: 0.02s;
   -webkit-animation-delay: 0.02s;
-  -ms-animation-delay: 0.02s;
+  -moz-animation-delay: 0.02s;
   animation-delay: 0.02s;
 }
 
-/* line 172, ../sass/path.scss */
 li:nth-of-type(2) .item {
-  -moz-animation-duration: 0.47s;
   -webkit-animation-duration: 0.47s;
-  -ms-animation-duration: 0.47s;
+  -moz-animation-duration: 0.47s;
   animation-duration: 0.47s;
 }
 
 @-moz-keyframes open-3 {
-  /* line 119, ../sass/path.scss */
   0% {
     left: 0px;
     bottom: 0px;
   }
 
-  /* line 123, ../sass/path.scss */
   60% {
-    left: 88.992px;
-    bottom: 64.656px;
+    left: 88.99187px;
+    bottom: 64.65638px;
   }
 
-  /* line 127, ../sass/path.scss */
   80% {
-    left: 76.857px;
-    bottom: 55.84px;
+    left: 76.85661px;
+    bottom: 55.8396px;
   }
 
-  /* line 131, ../sass/path.scss */
   100% {
-    left: 80.902px;
-    bottom: 58.779px;
+    left: 80.9017px;
+    bottom: 58.77853px;
   }
 }
 
 @-webkit-keyframes open-3 {
-  /* line 119, ../sass/path.scss */
   0% {
     left: 0px;
     bottom: 0px;
   }
 
-  /* line 123, ../sass/path.scss */
   60% {
-    left: 88.992px;
-    bottom: 64.656px;
+    left: 88.99187px;
+    bottom: 64.65638px;
   }
 
-  /* line 127, ../sass/path.scss */
   80% {
-    left: 76.857px;
-    bottom: 55.84px;
+    left: 76.85661px;
+    bottom: 55.8396px;
   }
 
-  /* line 131, ../sass/path.scss */
   100% {
-    left: 80.902px;
-    bottom: 58.779px;
-  }
-}
-
-@-ms-keyframes open-3 {
-  /* line 119, ../sass/path.scss */
-  0% {
-    left: 0px;
-    bottom: 0px;
-  }
-
-  /* line 123, ../sass/path.scss */
-  60% {
-    left: 88.992px;
-    bottom: 64.656px;
-  }
-
-  /* line 127, ../sass/path.scss */
-  80% {
-    left: 76.857px;
-    bottom: 55.84px;
-  }
-
-  /* line 131, ../sass/path.scss */
-  100% {
-    left: 80.902px;
-    bottom: 58.779px;
+    left: 80.9017px;
+    bottom: 58.77853px;
   }
 }
 
 @keyframes open-3 {
-  /* line 119, ../sass/path.scss */
   0% {
     left: 0px;
     bottom: 0px;
   }
 
-  /* line 123, ../sass/path.scss */
   60% {
-    left: 88.992px;
-    bottom: 64.656px;
+    left: 88.99187px;
+    bottom: 64.65638px;
   }
 
-  /* line 127, ../sass/path.scss */
   80% {
-    left: 76.857px;
-    bottom: 55.84px;
+    left: 76.85661px;
+    bottom: 55.8396px;
   }
 
-  /* line 131, ../sass/path.scss */
   100% {
-    left: 80.902px;
-    bottom: 58.779px;
+    left: 80.9017px;
+    bottom: 58.77853px;
   }
 }
 
 @-moz-keyframes close-3 {
-  /* line 138, ../sass/path.scss */
   0% {
-    left: 80.902px;
-    bottom: 58.779px;
+    left: 80.9017px;
+    bottom: 58.77853px;
   }
 
-  /* line 142, ../sass/path.scss */
   60% {
-    left: 97.082px;
-    bottom: 70.534px;
+    left: 97.08204px;
+    bottom: 70.53423px;
   }
 
-  /* line 146, ../sass/path.scss */
   100% {
     left: 0px;
     bottom: 0px;
@@ -966,39 +679,16 @@ li:nth-of-type(2) .item {
 }
 
 @-webkit-keyframes close-3 {
-  /* line 138, ../sass/path.scss */
   0% {
-    left: 80.902px;
-    bottom: 58.779px;
+    left: 80.9017px;
+    bottom: 58.77853px;
   }
 
-  /* line 142, ../sass/path.scss */
   60% {
-    left: 97.082px;
-    bottom: 70.534px;
+    left: 97.08204px;
+    bottom: 70.53423px;
   }
 
-  /* line 146, ../sass/path.scss */
-  100% {
-    left: 0px;
-    bottom: 0px;
-  }
-}
-
-@-ms-keyframes close-3 {
-  /* line 138, ../sass/path.scss */
-  0% {
-    left: 80.902px;
-    bottom: 58.779px;
-  }
-
-  /* line 142, ../sass/path.scss */
-  60% {
-    left: 97.082px;
-    bottom: 70.534px;
-  }
-
-  /* line 146, ../sass/path.scss */
   100% {
     left: 0px;
     bottom: 0px;
@@ -1006,193 +696,137 @@ li:nth-of-type(2) .item {
 }
 
 @keyframes close-3 {
-  /* line 138, ../sass/path.scss */
   0% {
-    left: 80.902px;
-    bottom: 58.779px;
+    left: 80.9017px;
+    bottom: 58.77853px;
   }
 
-  /* line 142, ../sass/path.scss */
   60% {
-    left: 97.082px;
-    bottom: 70.534px;
+    left: 97.08204px;
+    bottom: 70.53423px;
   }
 
-  /* line 146, ../sass/path.scss */
   100% {
     left: 0px;
     bottom: 0px;
   }
 }
 
-/* line 153, ../sass/path.scss */
 .open li:nth-of-type(3) {
-  left: 80.902px;
-  bottom: 58.779px;
-  -moz-animation-name: open-3;
+  left: 80.9017px;
+  bottom: 58.77853px;
   -webkit-animation-name: open-3;
-  -ms-animation-name: open-3;
+  -moz-animation-name: open-3;
   animation-name: open-3;
-  -moz-animation-timing-function: ease;
   -webkit-animation-timing-function: ease;
-  -ms-animation-timing-function: ease;
+  -moz-animation-timing-function: ease;
   animation-timing-function: ease;
-  -moz-animation-delay: 0.06s;
   -webkit-animation-delay: 0.06s;
-  -ms-animation-delay: 0.06s;
+  -moz-animation-delay: 0.06s;
   animation-delay: 0.06s;
 }
 
-/* line 161, ../sass/path.scss */
 .open li:nth-of-type(3) .item {
-  -moz-animation-duration: 0.51s;
   -webkit-animation-duration: 0.51s;
-  -ms-animation-duration: 0.51s;
+  -moz-animation-duration: 0.51s;
   animation-duration: 0.51s;
 }
 
-/* line 166, ../sass/path.scss */
 li:nth-of-type(3) {
-  -moz-animation-name: close-3;
   -webkit-animation-name: close-3;
-  -ms-animation-name: close-3;
+  -moz-animation-name: close-3;
   animation-name: close-3;
-  -moz-animation-timing-function: ease;
   -webkit-animation-timing-function: ease;
-  -ms-animation-timing-function: ease;
+  -moz-animation-timing-function: ease;
   animation-timing-function: ease;
-  -moz-animation-delay: 0.04s;
   -webkit-animation-delay: 0.04s;
-  -ms-animation-delay: 0.04s;
+  -moz-animation-delay: 0.04s;
   animation-delay: 0.04s;
 }
 
-/* line 172, ../sass/path.scss */
 li:nth-of-type(3) .item {
-  -moz-animation-duration: 0.49s;
   -webkit-animation-duration: 0.49s;
-  -ms-animation-duration: 0.49s;
+  -moz-animation-duration: 0.49s;
   animation-duration: 0.49s;
 }
 
 @-moz-keyframes open-4 {
-  /* line 119, ../sass/path.scss */
   0% {
     left: 0px;
     bottom: 0px;
   }
 
-  /* line 123, ../sass/path.scss */
   60% {
-    left: 64.656px;
-    bottom: 88.992px;
+    left: 64.65638px;
+    bottom: 88.99187px;
   }
 
-  /* line 127, ../sass/path.scss */
   80% {
-    left: 55.84px;
-    bottom: 76.857px;
+    left: 55.8396px;
+    bottom: 76.85661px;
   }
 
-  /* line 131, ../sass/path.scss */
   100% {
-    left: 58.779px;
-    bottom: 80.902px;
+    left: 58.77853px;
+    bottom: 80.9017px;
   }
 }
 
 @-webkit-keyframes open-4 {
-  /* line 119, ../sass/path.scss */
   0% {
     left: 0px;
     bottom: 0px;
   }
 
-  /* line 123, ../sass/path.scss */
   60% {
-    left: 64.656px;
-    bottom: 88.992px;
+    left: 64.65638px;
+    bottom: 88.99187px;
   }
 
-  /* line 127, ../sass/path.scss */
   80% {
-    left: 55.84px;
-    bottom: 76.857px;
+    left: 55.8396px;
+    bottom: 76.85661px;
   }
 
-  /* line 131, ../sass/path.scss */
   100% {
-    left: 58.779px;
-    bottom: 80.902px;
-  }
-}
-
-@-ms-keyframes open-4 {
-  /* line 119, ../sass/path.scss */
-  0% {
-    left: 0px;
-    bottom: 0px;
-  }
-
-  /* line 123, ../sass/path.scss */
-  60% {
-    left: 64.656px;
-    bottom: 88.992px;
-  }
-
-  /* line 127, ../sass/path.scss */
-  80% {
-    left: 55.84px;
-    bottom: 76.857px;
-  }
-
-  /* line 131, ../sass/path.scss */
-  100% {
-    left: 58.779px;
-    bottom: 80.902px;
+    left: 58.77853px;
+    bottom: 80.9017px;
   }
 }
 
 @keyframes open-4 {
-  /* line 119, ../sass/path.scss */
   0% {
     left: 0px;
     bottom: 0px;
   }
 
-  /* line 123, ../sass/path.scss */
   60% {
-    left: 64.656px;
-    bottom: 88.992px;
+    left: 64.65638px;
+    bottom: 88.99187px;
   }
 
-  /* line 127, ../sass/path.scss */
   80% {
-    left: 55.84px;
-    bottom: 76.857px;
+    left: 55.8396px;
+    bottom: 76.85661px;
   }
 
-  /* line 131, ../sass/path.scss */
   100% {
-    left: 58.779px;
-    bottom: 80.902px;
+    left: 58.77853px;
+    bottom: 80.9017px;
   }
 }
 
 @-moz-keyframes close-4 {
-  /* line 138, ../sass/path.scss */
   0% {
-    left: 58.779px;
-    bottom: 80.902px;
+    left: 58.77853px;
+    bottom: 80.9017px;
   }
 
-  /* line 142, ../sass/path.scss */
   60% {
-    left: 70.534px;
-    bottom: 97.082px;
+    left: 70.53423px;
+    bottom: 97.08204px;
   }
 
-  /* line 146, ../sass/path.scss */
   100% {
     left: 0px;
     bottom: 0px;
@@ -1200,39 +834,16 @@ li:nth-of-type(3) .item {
 }
 
 @-webkit-keyframes close-4 {
-  /* line 138, ../sass/path.scss */
   0% {
-    left: 58.779px;
-    bottom: 80.902px;
+    left: 58.77853px;
+    bottom: 80.9017px;
   }
 
-  /* line 142, ../sass/path.scss */
   60% {
-    left: 70.534px;
-    bottom: 97.082px;
+    left: 70.53423px;
+    bottom: 97.08204px;
   }
 
-  /* line 146, ../sass/path.scss */
-  100% {
-    left: 0px;
-    bottom: 0px;
-  }
-}
-
-@-ms-keyframes close-4 {
-  /* line 138, ../sass/path.scss */
-  0% {
-    left: 58.779px;
-    bottom: 80.902px;
-  }
-
-  /* line 142, ../sass/path.scss */
-  60% {
-    left: 70.534px;
-    bottom: 97.082px;
-  }
-
-  /* line 146, ../sass/path.scss */
   100% {
     left: 0px;
     bottom: 0px;
@@ -1240,193 +851,137 @@ li:nth-of-type(3) .item {
 }
 
 @keyframes close-4 {
-  /* line 138, ../sass/path.scss */
   0% {
-    left: 58.779px;
-    bottom: 80.902px;
+    left: 58.77853px;
+    bottom: 80.9017px;
   }
 
-  /* line 142, ../sass/path.scss */
   60% {
-    left: 70.534px;
-    bottom: 97.082px;
+    left: 70.53423px;
+    bottom: 97.08204px;
   }
 
-  /* line 146, ../sass/path.scss */
   100% {
     left: 0px;
     bottom: 0px;
   }
 }
 
-/* line 153, ../sass/path.scss */
 .open li:nth-of-type(4) {
-  left: 58.779px;
-  bottom: 80.902px;
-  -moz-animation-name: open-4;
+  left: 58.77853px;
+  bottom: 80.9017px;
   -webkit-animation-name: open-4;
-  -ms-animation-name: open-4;
+  -moz-animation-name: open-4;
   animation-name: open-4;
-  -moz-animation-timing-function: ease;
   -webkit-animation-timing-function: ease;
-  -ms-animation-timing-function: ease;
+  -moz-animation-timing-function: ease;
   animation-timing-function: ease;
-  -moz-animation-delay: 0.04s;
   -webkit-animation-delay: 0.04s;
-  -ms-animation-delay: 0.04s;
+  -moz-animation-delay: 0.04s;
   animation-delay: 0.04s;
 }
 
-/* line 161, ../sass/path.scss */
 .open li:nth-of-type(4) .item {
-  -moz-animation-duration: 0.49s;
   -webkit-animation-duration: 0.49s;
-  -ms-animation-duration: 0.49s;
+  -moz-animation-duration: 0.49s;
   animation-duration: 0.49s;
 }
 
-/* line 166, ../sass/path.scss */
 li:nth-of-type(4) {
-  -moz-animation-name: close-4;
   -webkit-animation-name: close-4;
-  -ms-animation-name: close-4;
+  -moz-animation-name: close-4;
   animation-name: close-4;
-  -moz-animation-timing-function: ease;
   -webkit-animation-timing-function: ease;
-  -ms-animation-timing-function: ease;
+  -moz-animation-timing-function: ease;
   animation-timing-function: ease;
-  -moz-animation-delay: 0.06s;
   -webkit-animation-delay: 0.06s;
-  -ms-animation-delay: 0.06s;
+  -moz-animation-delay: 0.06s;
   animation-delay: 0.06s;
 }
 
-/* line 172, ../sass/path.scss */
 li:nth-of-type(4) .item {
-  -moz-animation-duration: 0.51s;
   -webkit-animation-duration: 0.51s;
-  -ms-animation-duration: 0.51s;
+  -moz-animation-duration: 0.51s;
   animation-duration: 0.51s;
 }
 
 @-moz-keyframes open-5 {
-  /* line 119, ../sass/path.scss */
   0% {
     left: 0px;
     bottom: 0px;
   }
 
-  /* line 123, ../sass/path.scss */
   60% {
-    left: 33.992px;
-    bottom: 104.616px;
+    left: 33.99187px;
+    bottom: 104.61622px;
   }
 
-  /* line 127, ../sass/path.scss */
   80% {
-    left: 29.357px;
-    bottom: 90.35px;
+    left: 29.35661px;
+    bottom: 90.35037px;
   }
 
-  /* line 131, ../sass/path.scss */
   100% {
-    left: 30.902px;
-    bottom: 95.106px;
+    left: 30.9017px;
+    bottom: 95.10565px;
   }
 }
 
 @-webkit-keyframes open-5 {
-  /* line 119, ../sass/path.scss */
   0% {
     left: 0px;
     bottom: 0px;
   }
 
-  /* line 123, ../sass/path.scss */
   60% {
-    left: 33.992px;
-    bottom: 104.616px;
+    left: 33.99187px;
+    bottom: 104.61622px;
   }
 
-  /* line 127, ../sass/path.scss */
   80% {
-    left: 29.357px;
-    bottom: 90.35px;
+    left: 29.35661px;
+    bottom: 90.35037px;
   }
 
-  /* line 131, ../sass/path.scss */
   100% {
-    left: 30.902px;
-    bottom: 95.106px;
-  }
-}
-
-@-ms-keyframes open-5 {
-  /* line 119, ../sass/path.scss */
-  0% {
-    left: 0px;
-    bottom: 0px;
-  }
-
-  /* line 123, ../sass/path.scss */
-  60% {
-    left: 33.992px;
-    bottom: 104.616px;
-  }
-
-  /* line 127, ../sass/path.scss */
-  80% {
-    left: 29.357px;
-    bottom: 90.35px;
-  }
-
-  /* line 131, ../sass/path.scss */
-  100% {
-    left: 30.902px;
-    bottom: 95.106px;
+    left: 30.9017px;
+    bottom: 95.10565px;
   }
 }
 
 @keyframes open-5 {
-  /* line 119, ../sass/path.scss */
   0% {
     left: 0px;
     bottom: 0px;
   }
 
-  /* line 123, ../sass/path.scss */
   60% {
-    left: 33.992px;
-    bottom: 104.616px;
+    left: 33.99187px;
+    bottom: 104.61622px;
   }
 
-  /* line 127, ../sass/path.scss */
   80% {
-    left: 29.357px;
-    bottom: 90.35px;
+    left: 29.35661px;
+    bottom: 90.35037px;
   }
 
-  /* line 131, ../sass/path.scss */
   100% {
-    left: 30.902px;
-    bottom: 95.106px;
+    left: 30.9017px;
+    bottom: 95.10565px;
   }
 }
 
 @-moz-keyframes close-5 {
-  /* line 138, ../sass/path.scss */
   0% {
-    left: 30.902px;
-    bottom: 95.106px;
+    left: 30.9017px;
+    bottom: 95.10565px;
   }
 
-  /* line 142, ../sass/path.scss */
   60% {
-    left: 37.082px;
-    bottom: 114.127px;
+    left: 37.08204px;
+    bottom: 114.12678px;
   }
 
-  /* line 146, ../sass/path.scss */
   100% {
     left: 0px;
     bottom: 0px;
@@ -1434,39 +989,16 @@ li:nth-of-type(4) .item {
 }
 
 @-webkit-keyframes close-5 {
-  /* line 138, ../sass/path.scss */
   0% {
-    left: 30.902px;
-    bottom: 95.106px;
+    left: 30.9017px;
+    bottom: 95.10565px;
   }
 
-  /* line 142, ../sass/path.scss */
   60% {
-    left: 37.082px;
-    bottom: 114.127px;
+    left: 37.08204px;
+    bottom: 114.12678px;
   }
 
-  /* line 146, ../sass/path.scss */
-  100% {
-    left: 0px;
-    bottom: 0px;
-  }
-}
-
-@-ms-keyframes close-5 {
-  /* line 138, ../sass/path.scss */
-  0% {
-    left: 30.902px;
-    bottom: 95.106px;
-  }
-
-  /* line 142, ../sass/path.scss */
-  60% {
-    left: 37.082px;
-    bottom: 114.127px;
-  }
-
-  /* line 146, ../sass/path.scss */
   100% {
     left: 0px;
     bottom: 0px;
@@ -1474,95 +1006,76 @@ li:nth-of-type(4) .item {
 }
 
 @keyframes close-5 {
-  /* line 138, ../sass/path.scss */
   0% {
-    left: 30.902px;
-    bottom: 95.106px;
+    left: 30.9017px;
+    bottom: 95.10565px;
   }
 
-  /* line 142, ../sass/path.scss */
   60% {
-    left: 37.082px;
-    bottom: 114.127px;
+    left: 37.08204px;
+    bottom: 114.12678px;
   }
 
-  /* line 146, ../sass/path.scss */
   100% {
     left: 0px;
     bottom: 0px;
   }
 }
 
-/* line 153, ../sass/path.scss */
 .open li:nth-of-type(5) {
-  left: 30.902px;
-  bottom: 95.106px;
-  -moz-animation-name: open-5;
+  left: 30.9017px;
+  bottom: 95.10565px;
   -webkit-animation-name: open-5;
-  -ms-animation-name: open-5;
+  -moz-animation-name: open-5;
   animation-name: open-5;
-  -moz-animation-timing-function: ease;
   -webkit-animation-timing-function: ease;
-  -ms-animation-timing-function: ease;
+  -moz-animation-timing-function: ease;
   animation-timing-function: ease;
-  -moz-animation-delay: 0.02s;
   -webkit-animation-delay: 0.02s;
-  -ms-animation-delay: 0.02s;
+  -moz-animation-delay: 0.02s;
   animation-delay: 0.02s;
 }
 
-/* line 161, ../sass/path.scss */
 .open li:nth-of-type(5) .item {
-  -moz-animation-duration: 0.47s;
   -webkit-animation-duration: 0.47s;
-  -ms-animation-duration: 0.47s;
+  -moz-animation-duration: 0.47s;
   animation-duration: 0.47s;
 }
 
-/* line 166, ../sass/path.scss */
 li:nth-of-type(5) {
-  -moz-animation-name: close-5;
   -webkit-animation-name: close-5;
-  -ms-animation-name: close-5;
+  -moz-animation-name: close-5;
   animation-name: close-5;
-  -moz-animation-timing-function: ease;
   -webkit-animation-timing-function: ease;
-  -ms-animation-timing-function: ease;
+  -moz-animation-timing-function: ease;
   animation-timing-function: ease;
-  -moz-animation-delay: 0.08s;
   -webkit-animation-delay: 0.08s;
-  -ms-animation-delay: 0.08s;
+  -moz-animation-delay: 0.08s;
   animation-delay: 0.08s;
 }
 
-/* line 172, ../sass/path.scss */
 li:nth-of-type(5) .item {
-  -moz-animation-duration: 0.53s;
   -webkit-animation-duration: 0.53s;
-  -ms-animation-duration: 0.53s;
+  -moz-animation-duration: 0.53s;
   animation-duration: 0.53s;
 }
 
 @-moz-keyframes open-6 {
-  /* line 119, ../sass/path.scss */
   0% {
     left: 0px;
     bottom: 0px;
   }
 
-  /* line 123, ../sass/path.scss */
   60% {
     left: 0.0px;
     bottom: 110.0px;
   }
 
-  /* line 127, ../sass/path.scss */
   80% {
     left: 0.0px;
     bottom: 95px;
   }
 
-  /* line 131, ../sass/path.scss */
   100% {
     left: 0.0px;
     bottom: 100px;
@@ -1570,51 +1083,21 @@ li:nth-of-type(5) .item {
 }
 
 @-webkit-keyframes open-6 {
-  /* line 119, ../sass/path.scss */
   0% {
     left: 0px;
     bottom: 0px;
   }
 
-  /* line 123, ../sass/path.scss */
   60% {
     left: 0.0px;
     bottom: 110.0px;
   }
 
-  /* line 127, ../sass/path.scss */
   80% {
     left: 0.0px;
     bottom: 95px;
   }
 
-  /* line 131, ../sass/path.scss */
-  100% {
-    left: 0.0px;
-    bottom: 100px;
-  }
-}
-
-@-ms-keyframes open-6 {
-  /* line 119, ../sass/path.scss */
-  0% {
-    left: 0px;
-    bottom: 0px;
-  }
-
-  /* line 123, ../sass/path.scss */
-  60% {
-    left: 0.0px;
-    bottom: 110.0px;
-  }
-
-  /* line 127, ../sass/path.scss */
-  80% {
-    left: 0.0px;
-    bottom: 95px;
-  }
-
-  /* line 131, ../sass/path.scss */
   100% {
     left: 0.0px;
     bottom: 100px;
@@ -1622,25 +1105,21 @@ li:nth-of-type(5) .item {
 }
 
 @keyframes open-6 {
-  /* line 119, ../sass/path.scss */
   0% {
     left: 0px;
     bottom: 0px;
   }
 
-  /* line 123, ../sass/path.scss */
   60% {
     left: 0.0px;
     bottom: 110.0px;
   }
 
-  /* line 127, ../sass/path.scss */
   80% {
     left: 0.0px;
     bottom: 95px;
   }
 
-  /* line 131, ../sass/path.scss */
   100% {
     left: 0.0px;
     bottom: 100px;
@@ -1648,19 +1127,16 @@ li:nth-of-type(5) .item {
 }
 
 @-moz-keyframes close-6 {
-  /* line 138, ../sass/path.scss */
   0% {
     left: 0.0px;
     bottom: 100px;
   }
 
-  /* line 142, ../sass/path.scss */
   60% {
     left: 0.0px;
     bottom: 120px;
   }
 
-  /* line 146, ../sass/path.scss */
   100% {
     left: 0px;
     bottom: 0px;
@@ -1668,39 +1144,16 @@ li:nth-of-type(5) .item {
 }
 
 @-webkit-keyframes close-6 {
-  /* line 138, ../sass/path.scss */
   0% {
     left: 0.0px;
     bottom: 100px;
   }
 
-  /* line 142, ../sass/path.scss */
   60% {
     left: 0.0px;
     bottom: 120px;
   }
 
-  /* line 146, ../sass/path.scss */
-  100% {
-    left: 0px;
-    bottom: 0px;
-  }
-}
-
-@-ms-keyframes close-6 {
-  /* line 138, ../sass/path.scss */
-  0% {
-    left: 0.0px;
-    bottom: 100px;
-  }
-
-  /* line 142, ../sass/path.scss */
-  60% {
-    left: 0.0px;
-    bottom: 120px;
-  }
-
-  /* line 146, ../sass/path.scss */
   100% {
     left: 0px;
     bottom: 0px;
@@ -1708,71 +1161,56 @@ li:nth-of-type(5) .item {
 }
 
 @keyframes close-6 {
-  /* line 138, ../sass/path.scss */
   0% {
     left: 0.0px;
     bottom: 100px;
   }
 
-  /* line 142, ../sass/path.scss */
   60% {
     left: 0.0px;
     bottom: 120px;
   }
 
-  /* line 146, ../sass/path.scss */
   100% {
     left: 0px;
     bottom: 0px;
   }
 }
 
-/* line 153, ../sass/path.scss */
 .open li:nth-of-type(6) {
   left: 0.0px;
   bottom: 100px;
-  -moz-animation-name: open-6;
   -webkit-animation-name: open-6;
-  -ms-animation-name: open-6;
+  -moz-animation-name: open-6;
   animation-name: open-6;
-  -moz-animation-timing-function: ease;
   -webkit-animation-timing-function: ease;
-  -ms-animation-timing-function: ease;
+  -moz-animation-timing-function: ease;
   animation-timing-function: ease;
-  -moz-animation-delay: 0s;
   -webkit-animation-delay: 0s;
-  -ms-animation-delay: 0s;
+  -moz-animation-delay: 0s;
   animation-delay: 0s;
 }
 
-/* line 161, ../sass/path.scss */
 .open li:nth-of-type(6) .item {
-  -moz-animation-duration: 0.45s;
   -webkit-animation-duration: 0.45s;
-  -ms-animation-duration: 0.45s;
+  -moz-animation-duration: 0.45s;
   animation-duration: 0.45s;
 }
 
-/* line 166, ../sass/path.scss */
 li:nth-of-type(6) {
-  -moz-animation-name: close-6;
   -webkit-animation-name: close-6;
-  -ms-animation-name: close-6;
+  -moz-animation-name: close-6;
   animation-name: close-6;
-  -moz-animation-timing-function: ease;
   -webkit-animation-timing-function: ease;
-  -ms-animation-timing-function: ease;
+  -moz-animation-timing-function: ease;
   animation-timing-function: ease;
-  -moz-animation-delay: 0.1s;
   -webkit-animation-delay: 0.1s;
-  -ms-animation-delay: 0.1s;
+  -moz-animation-delay: 0.1s;
   animation-delay: 0.1s;
 }
 
-/* line 172, ../sass/path.scss */
 li:nth-of-type(6) .item {
-  -moz-animation-duration: 0.55s;
   -webkit-animation-duration: 0.55s;
-  -ms-animation-duration: 0.55s;
+  -moz-animation-duration: 0.55s;
   animation-duration: 0.55s;
 }
