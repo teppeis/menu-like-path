@@ -151,11 +151,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   bottom: 0;
   -webkit-animation-fill-mode: both;
   -moz-animation-fill-mode: both;
-  -ms-animation-fill-mode: both;
   animation-fill-mode: both;
   -webkit-animation-duration: 0.45s;
   -moz-animation-duration: 0.45s;
-  -ms-animation-duration: 0.45s;
   animation-duration: 0.45s;
 }
 
@@ -272,22 +270,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   color: #fff;
   -webkit-animation-name: close-rotate;
   -moz-animation-name: close-rotate;
-  -ms-animation-name: close-rotate;
   animation-name: close-rotate;
   -webkit-animation-timing-function: ease;
   -moz-animation-timing-function: ease;
-  -ms-animation-timing-function: ease;
   animation-timing-function: ease;
   display: inline-block;
 }
 .open .item {
   -webkit-animation-name: open-rotate;
   -moz-animation-name: open-rotate;
-  -ms-animation-name: open-rotate;
   animation-name: open-rotate;
   -webkit-animation-timing-function: ease;
   -moz-animation-timing-function: ease;
-  -ms-animation-timing-function: ease;
   animation-timing-function: ease;
 }
 
@@ -413,44 +407,36 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   bottom: 0px;
   -webkit-animation-name: open-1;
   -moz-animation-name: open-1;
-  -ms-animation-name: open-1;
   animation-name: open-1;
   -webkit-animation-timing-function: ease;
   -moz-animation-timing-function: ease;
-  -ms-animation-timing-function: ease;
   animation-timing-function: ease;
   -webkit-animation-delay: 0.1s;
   -moz-animation-delay: 0.1s;
-  -ms-animation-delay: 0.1s;
   animation-delay: 0.1s;
 }
 
 .open li:nth-of-type(1) .item {
   -webkit-animation-duration: 0.55s;
   -moz-animation-duration: 0.55s;
-  -ms-animation-duration: 0.55s;
   animation-duration: 0.55s;
 }
 
 li:nth-of-type(1) {
   -webkit-animation-name: close-1;
   -moz-animation-name: close-1;
-  -ms-animation-name: close-1;
   animation-name: close-1;
   -webkit-animation-timing-function: ease;
   -moz-animation-timing-function: ease;
-  -ms-animation-timing-function: ease;
   animation-timing-function: ease;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
-  -ms-animation-delay: 0s;
   animation-delay: 0s;
 }
 
 li:nth-of-type(1) .item {
   -webkit-animation-duration: 0.45s;
   -moz-animation-duration: 0.45s;
-  -ms-animation-duration: 0.45s;
   animation-duration: 0.45s;
 }
 
@@ -576,44 +562,36 @@ li:nth-of-type(1) .item {
   bottom: 30.9017px;
   -webkit-animation-name: open-2;
   -moz-animation-name: open-2;
-  -ms-animation-name: open-2;
   animation-name: open-2;
   -webkit-animation-timing-function: ease;
   -moz-animation-timing-function: ease;
-  -ms-animation-timing-function: ease;
   animation-timing-function: ease;
   -webkit-animation-delay: 0.08s;
   -moz-animation-delay: 0.08s;
-  -ms-animation-delay: 0.08s;
   animation-delay: 0.08s;
 }
 
 .open li:nth-of-type(2) .item {
   -webkit-animation-duration: 0.53s;
   -moz-animation-duration: 0.53s;
-  -ms-animation-duration: 0.53s;
   animation-duration: 0.53s;
 }
 
 li:nth-of-type(2) {
   -webkit-animation-name: close-2;
   -moz-animation-name: close-2;
-  -ms-animation-name: close-2;
   animation-name: close-2;
   -webkit-animation-timing-function: ease;
   -moz-animation-timing-function: ease;
-  -ms-animation-timing-function: ease;
   animation-timing-function: ease;
   -webkit-animation-delay: 0.02s;
   -moz-animation-delay: 0.02s;
-  -ms-animation-delay: 0.02s;
   animation-delay: 0.02s;
 }
 
 li:nth-of-type(2) .item {
   -webkit-animation-duration: 0.47s;
   -moz-animation-duration: 0.47s;
-  -ms-animation-duration: 0.47s;
   animation-duration: 0.47s;
 }
 
@@ -739,44 +717,36 @@ li:nth-of-type(2) .item {
   bottom: 58.77853px;
   -webkit-animation-name: open-3;
   -moz-animation-name: open-3;
-  -ms-animation-name: open-3;
   animation-name: open-3;
   -webkit-animation-timing-function: ease;
   -moz-animation-timing-function: ease;
-  -ms-animation-timing-function: ease;
   animation-timing-function: ease;
   -webkit-animation-delay: 0.06s;
   -moz-animation-delay: 0.06s;
-  -ms-animation-delay: 0.06s;
   animation-delay: 0.06s;
 }
 
 .open li:nth-of-type(3) .item {
   -webkit-animation-duration: 0.51s;
   -moz-animation-duration: 0.51s;
-  -ms-animation-duration: 0.51s;
   animation-duration: 0.51s;
 }
 
 li:nth-of-type(3) {
   -webkit-animation-name: close-3;
   -moz-animation-name: close-3;
-  -ms-animation-name: close-3;
   animation-name: close-3;
   -webkit-animation-timing-function: ease;
   -moz-animation-timing-function: ease;
-  -ms-animation-timing-function: ease;
   animation-timing-function: ease;
   -webkit-animation-delay: 0.04s;
   -moz-animation-delay: 0.04s;
-  -ms-animation-delay: 0.04s;
   animation-delay: 0.04s;
 }
 
 li:nth-of-type(3) .item {
   -webkit-animation-duration: 0.49s;
   -moz-animation-duration: 0.49s;
-  -ms-animation-duration: 0.49s;
   animation-duration: 0.49s;
 }
 
@@ -902,44 +872,36 @@ li:nth-of-type(3) .item {
   bottom: 80.9017px;
   -webkit-animation-name: open-4;
   -moz-animation-name: open-4;
-  -ms-animation-name: open-4;
   animation-name: open-4;
   -webkit-animation-timing-function: ease;
   -moz-animation-timing-function: ease;
-  -ms-animation-timing-function: ease;
   animation-timing-function: ease;
   -webkit-animation-delay: 0.04s;
   -moz-animation-delay: 0.04s;
-  -ms-animation-delay: 0.04s;
   animation-delay: 0.04s;
 }
 
 .open li:nth-of-type(4) .item {
   -webkit-animation-duration: 0.49s;
   -moz-animation-duration: 0.49s;
-  -ms-animation-duration: 0.49s;
   animation-duration: 0.49s;
 }
 
 li:nth-of-type(4) {
   -webkit-animation-name: close-4;
   -moz-animation-name: close-4;
-  -ms-animation-name: close-4;
   animation-name: close-4;
   -webkit-animation-timing-function: ease;
   -moz-animation-timing-function: ease;
-  -ms-animation-timing-function: ease;
   animation-timing-function: ease;
   -webkit-animation-delay: 0.06s;
   -moz-animation-delay: 0.06s;
-  -ms-animation-delay: 0.06s;
   animation-delay: 0.06s;
 }
 
 li:nth-of-type(4) .item {
   -webkit-animation-duration: 0.51s;
   -moz-animation-duration: 0.51s;
-  -ms-animation-duration: 0.51s;
   animation-duration: 0.51s;
 }
 
@@ -1065,44 +1027,36 @@ li:nth-of-type(4) .item {
   bottom: 95.10565px;
   -webkit-animation-name: open-5;
   -moz-animation-name: open-5;
-  -ms-animation-name: open-5;
   animation-name: open-5;
   -webkit-animation-timing-function: ease;
   -moz-animation-timing-function: ease;
-  -ms-animation-timing-function: ease;
   animation-timing-function: ease;
   -webkit-animation-delay: 0.02s;
   -moz-animation-delay: 0.02s;
-  -ms-animation-delay: 0.02s;
   animation-delay: 0.02s;
 }
 
 .open li:nth-of-type(5) .item {
   -webkit-animation-duration: 0.47s;
   -moz-animation-duration: 0.47s;
-  -ms-animation-duration: 0.47s;
   animation-duration: 0.47s;
 }
 
 li:nth-of-type(5) {
   -webkit-animation-name: close-5;
   -moz-animation-name: close-5;
-  -ms-animation-name: close-5;
   animation-name: close-5;
   -webkit-animation-timing-function: ease;
   -moz-animation-timing-function: ease;
-  -ms-animation-timing-function: ease;
   animation-timing-function: ease;
   -webkit-animation-delay: 0.08s;
   -moz-animation-delay: 0.08s;
-  -ms-animation-delay: 0.08s;
   animation-delay: 0.08s;
 }
 
 li:nth-of-type(5) .item {
   -webkit-animation-duration: 0.53s;
   -moz-animation-duration: 0.53s;
-  -ms-animation-duration: 0.53s;
   animation-duration: 0.53s;
 }
 
@@ -1228,43 +1182,35 @@ li:nth-of-type(5) .item {
   bottom: 100px;
   -webkit-animation-name: open-6;
   -moz-animation-name: open-6;
-  -ms-animation-name: open-6;
   animation-name: open-6;
   -webkit-animation-timing-function: ease;
   -moz-animation-timing-function: ease;
-  -ms-animation-timing-function: ease;
   animation-timing-function: ease;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
-  -ms-animation-delay: 0s;
   animation-delay: 0s;
 }
 
 .open li:nth-of-type(6) .item {
   -webkit-animation-duration: 0.45s;
   -moz-animation-duration: 0.45s;
-  -ms-animation-duration: 0.45s;
   animation-duration: 0.45s;
 }
 
 li:nth-of-type(6) {
   -webkit-animation-name: close-6;
   -moz-animation-name: close-6;
-  -ms-animation-name: close-6;
   animation-name: close-6;
   -webkit-animation-timing-function: ease;
   -moz-animation-timing-function: ease;
-  -ms-animation-timing-function: ease;
   animation-timing-function: ease;
   -webkit-animation-delay: 0.1s;
   -moz-animation-delay: 0.1s;
-  -ms-animation-delay: 0.1s;
   animation-delay: 0.1s;
 }
 
 li:nth-of-type(6) .item {
   -webkit-animation-duration: 0.55s;
   -moz-animation-duration: 0.55s;
-  -ms-animation-duration: 0.55s;
   animation-duration: 0.55s;
 }

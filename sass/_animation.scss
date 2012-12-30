@@ -1,6 +1,8 @@
 @import "compass/css3/shared";
 @import "keyframes";
 
+$animation-support: -moz, -webkit, not -o, not -ms, not -khtml;
+
 // CSS Animations
 // Currently only works in Webkit.
 //
@@ -30,9 +32,7 @@ $default-animation-fill-mode: none !default;
 // * also accepts "all" or "none"
 
 @mixin animation-name($names: $default-animation-name) {
-  @include experimental(animation-name, unquote($names),
-    -moz, -webkit, not -o, -ms, not -khtml, official
-  );
+  @include experimental(animation-name, unquote($names), $animation-support...);
 }
 
 // One or more durations in seconds
@@ -42,9 +42,7 @@ $default-animation-fill-mode: none !default;
 
 @mixin animation-duration($duration: $default-animation-duration) {
   @if type-of($duration) == string { $duration: unquote($duration); }
-  @include experimental(animation-duration, $duration,
-    -moz, -webkit, not -o, -ms, not -khtml, official
-  );
+  @include experimental(animation-duration, $duration, $animation-support...);
 }
 
 // One or more timing functions
@@ -54,9 +52,7 @@ $default-animation-fill-mode: none !default;
 // * These functions will effect the properties in the same list position
 
 @mixin animation-timing-function($function: $default-animation-function) {
-  @include experimental(animation-timing-function, unquote($function),
-    -moz, -webkit, not -o, -ms, not -khtml, official
-  );
+  @include experimental(animation-timing-function, unquote($function), $animation-support...);
 }
 
 // One or more animation-delays in seconds
@@ -66,9 +62,7 @@ $default-animation-fill-mode: none !default;
 
 @mixin animation-delay($delay: $default-animation-delay) {
   @if type-of($delay) == string { $delay: unquote($delay); }
-  @include experimental(animation-delay, $delay,
-    -moz, -webkit, not -o, -ms, not -khtml, official
-  );
+  @include experimental(animation-delay, $delay, $animation-support...);
 }
 
 // One or more fill mode
@@ -77,9 +71,7 @@ $default-animation-fill-mode: none !default;
 // * For multiple, use a comma-delimited list
 
 @mixin animation-fill-mode($fill-mode: $default-animation-fill-mode) {
-  @include experimental(animation-fill-mode, unquote($fill-mode),
-    -moz, -webkit, not -o, -ms, not -khtml, official
-  );
+  @include experimental(animation-fill-mode, unquote($fill-mode), $animation-support...);
 }
 
 // animation all-in-one shorthand
