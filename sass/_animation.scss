@@ -1,11 +1,8 @@
 @import "compass/css3/shared";
-@import "keyframes";
 
-$animation-support: -moz, -webkit, not -o, not -ms, not -khtml;
+$animation-support: not -moz, -webkit, not -o, not -ms, not -khtml;
 
 // CSS Animations
-// Currently only works in Webkit.
-//
 // Including this submodule sets following defaults for the mixins:
 //
 //     $default-animation-name      : none
@@ -86,4 +83,13 @@ $default-animation-fill-mode: none !default;
   @include animation-duration($duration);
   @if $function { @include animation-timing-function($function); }
   @if $delay { @include animation-delay($delay); }
+}
+
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    @content
+  }
+  @keyframes #{$name} {
+    @content
+  }
 }

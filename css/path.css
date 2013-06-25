@@ -150,29 +150,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   left: 0;
   bottom: 0;
   -webkit-animation-fill-mode: both;
-  -moz-animation-fill-mode: both;
   animation-fill-mode: both;
   -webkit-animation-duration: 0.45s;
-  -moz-animation-duration: 0.45s;
   animation-duration: 0.45s;
-}
-
-@-moz-keyframes open-rotate {
-  0% {
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-
-  100% {
-    -webkit-transform: rotate(720deg);
-    -moz-transform: rotate(720deg);
-    -ms-transform: rotate(720deg);
-    -o-transform: rotate(720deg);
-    transform: rotate(720deg);
-  }
 }
 
 @-webkit-keyframes open-rotate {
@@ -208,24 +188,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     -ms-transform: rotate(720deg);
     -o-transform: rotate(720deg);
     transform: rotate(720deg);
-  }
-}
-
-@-moz-keyframes close-rotate {
-  0% {
-    -webkit-transform: rotate(720deg);
-    -moz-transform: rotate(720deg);
-    -ms-transform: rotate(720deg);
-    -o-transform: rotate(720deg);
-    transform: rotate(720deg);
-  }
-
-  100% {
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
   }
 }
 
@@ -269,42 +231,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   text-decoration: none;
   color: #fff;
   -webkit-animation-name: close-rotate;
-  -moz-animation-name: close-rotate;
   animation-name: close-rotate;
   -webkit-animation-timing-function: ease;
-  -moz-animation-timing-function: ease;
   animation-timing-function: ease;
   display: inline-block;
 }
 .open .item {
   -webkit-animation-name: open-rotate;
-  -moz-animation-name: open-rotate;
   animation-name: open-rotate;
   -webkit-animation-timing-function: ease;
-  -moz-animation-timing-function: ease;
   animation-timing-function: ease;
-}
-
-@-moz-keyframes open-1 {
-  0% {
-    left: 0px;
-    bottom: 0px;
-  }
-
-  60% {
-    left: 110.0px;
-    bottom: 0px;
-  }
-
-  80% {
-    left: 95px;
-    bottom: 0px;
-  }
-
-  100% {
-    left: 100px;
-    bottom: 0px;
-  }
 }
 
 @-webkit-keyframes open-1 {
@@ -351,23 +287,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   }
 }
 
-@-moz-keyframes close-1 {
-  0% {
-    left: 100px;
-    bottom: 0px;
-  }
-
-  60% {
-    left: 120px;
-    bottom: 0px;
-  }
-
-  100% {
-    left: 0px;
-    bottom: 0px;
-  }
-}
-
 @-webkit-keyframes close-1 {
   0% {
     left: 100px;
@@ -406,60 +325,30 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   left: 100px;
   bottom: 0px;
   -webkit-animation-name: open-1;
-  -moz-animation-name: open-1;
   animation-name: open-1;
   -webkit-animation-timing-function: ease;
-  -moz-animation-timing-function: ease;
   animation-timing-function: ease;
   -webkit-animation-delay: 0.1s;
-  -moz-animation-delay: 0.1s;
   animation-delay: 0.1s;
 }
 
 .open li:nth-of-type(1) .item {
   -webkit-animation-duration: 0.55s;
-  -moz-animation-duration: 0.55s;
   animation-duration: 0.55s;
 }
 
 li:nth-of-type(1) {
   -webkit-animation-name: close-1;
-  -moz-animation-name: close-1;
   animation-name: close-1;
   -webkit-animation-timing-function: ease;
-  -moz-animation-timing-function: ease;
   animation-timing-function: ease;
   -webkit-animation-delay: 0s;
-  -moz-animation-delay: 0s;
   animation-delay: 0s;
 }
 
 li:nth-of-type(1) .item {
   -webkit-animation-duration: 0.45s;
-  -moz-animation-duration: 0.45s;
   animation-duration: 0.45s;
-}
-
-@-moz-keyframes open-2 {
-  0% {
-    left: 0px;
-    bottom: 0px;
-  }
-
-  60% {
-    left: 104.61622px;
-    bottom: 33.99187px;
-  }
-
-  80% {
-    left: 90.35037px;
-    bottom: 29.35661px;
-  }
-
-  100% {
-    left: 95.10565px;
-    bottom: 30.9017px;
-  }
 }
 
 @-webkit-keyframes open-2 {
@@ -506,23 +395,6 @@ li:nth-of-type(1) .item {
   }
 }
 
-@-moz-keyframes close-2 {
-  0% {
-    left: 95.10565px;
-    bottom: 30.9017px;
-  }
-
-  60% {
-    left: 114.12678px;
-    bottom: 37.08204px;
-  }
-
-  100% {
-    left: 0px;
-    bottom: 0px;
-  }
-}
-
 @-webkit-keyframes close-2 {
   0% {
     left: 95.10565px;
@@ -561,60 +433,30 @@ li:nth-of-type(1) .item {
   left: 95.10565px;
   bottom: 30.9017px;
   -webkit-animation-name: open-2;
-  -moz-animation-name: open-2;
   animation-name: open-2;
   -webkit-animation-timing-function: ease;
-  -moz-animation-timing-function: ease;
   animation-timing-function: ease;
   -webkit-animation-delay: 0.08s;
-  -moz-animation-delay: 0.08s;
   animation-delay: 0.08s;
 }
 
 .open li:nth-of-type(2) .item {
   -webkit-animation-duration: 0.53s;
-  -moz-animation-duration: 0.53s;
   animation-duration: 0.53s;
 }
 
 li:nth-of-type(2) {
   -webkit-animation-name: close-2;
-  -moz-animation-name: close-2;
   animation-name: close-2;
   -webkit-animation-timing-function: ease;
-  -moz-animation-timing-function: ease;
   animation-timing-function: ease;
   -webkit-animation-delay: 0.02s;
-  -moz-animation-delay: 0.02s;
   animation-delay: 0.02s;
 }
 
 li:nth-of-type(2) .item {
   -webkit-animation-duration: 0.47s;
-  -moz-animation-duration: 0.47s;
   animation-duration: 0.47s;
-}
-
-@-moz-keyframes open-3 {
-  0% {
-    left: 0px;
-    bottom: 0px;
-  }
-
-  60% {
-    left: 88.99187px;
-    bottom: 64.65638px;
-  }
-
-  80% {
-    left: 76.85661px;
-    bottom: 55.8396px;
-  }
-
-  100% {
-    left: 80.9017px;
-    bottom: 58.77853px;
-  }
 }
 
 @-webkit-keyframes open-3 {
@@ -661,23 +503,6 @@ li:nth-of-type(2) .item {
   }
 }
 
-@-moz-keyframes close-3 {
-  0% {
-    left: 80.9017px;
-    bottom: 58.77853px;
-  }
-
-  60% {
-    left: 97.08204px;
-    bottom: 70.53423px;
-  }
-
-  100% {
-    left: 0px;
-    bottom: 0px;
-  }
-}
-
 @-webkit-keyframes close-3 {
   0% {
     left: 80.9017px;
@@ -716,60 +541,30 @@ li:nth-of-type(2) .item {
   left: 80.9017px;
   bottom: 58.77853px;
   -webkit-animation-name: open-3;
-  -moz-animation-name: open-3;
   animation-name: open-3;
   -webkit-animation-timing-function: ease;
-  -moz-animation-timing-function: ease;
   animation-timing-function: ease;
   -webkit-animation-delay: 0.06s;
-  -moz-animation-delay: 0.06s;
   animation-delay: 0.06s;
 }
 
 .open li:nth-of-type(3) .item {
   -webkit-animation-duration: 0.51s;
-  -moz-animation-duration: 0.51s;
   animation-duration: 0.51s;
 }
 
 li:nth-of-type(3) {
   -webkit-animation-name: close-3;
-  -moz-animation-name: close-3;
   animation-name: close-3;
   -webkit-animation-timing-function: ease;
-  -moz-animation-timing-function: ease;
   animation-timing-function: ease;
   -webkit-animation-delay: 0.04s;
-  -moz-animation-delay: 0.04s;
   animation-delay: 0.04s;
 }
 
 li:nth-of-type(3) .item {
   -webkit-animation-duration: 0.49s;
-  -moz-animation-duration: 0.49s;
   animation-duration: 0.49s;
-}
-
-@-moz-keyframes open-4 {
-  0% {
-    left: 0px;
-    bottom: 0px;
-  }
-
-  60% {
-    left: 64.65638px;
-    bottom: 88.99187px;
-  }
-
-  80% {
-    left: 55.8396px;
-    bottom: 76.85661px;
-  }
-
-  100% {
-    left: 58.77853px;
-    bottom: 80.9017px;
-  }
 }
 
 @-webkit-keyframes open-4 {
@@ -816,23 +611,6 @@ li:nth-of-type(3) .item {
   }
 }
 
-@-moz-keyframes close-4 {
-  0% {
-    left: 58.77853px;
-    bottom: 80.9017px;
-  }
-
-  60% {
-    left: 70.53423px;
-    bottom: 97.08204px;
-  }
-
-  100% {
-    left: 0px;
-    bottom: 0px;
-  }
-}
-
 @-webkit-keyframes close-4 {
   0% {
     left: 58.77853px;
@@ -871,60 +649,30 @@ li:nth-of-type(3) .item {
   left: 58.77853px;
   bottom: 80.9017px;
   -webkit-animation-name: open-4;
-  -moz-animation-name: open-4;
   animation-name: open-4;
   -webkit-animation-timing-function: ease;
-  -moz-animation-timing-function: ease;
   animation-timing-function: ease;
   -webkit-animation-delay: 0.04s;
-  -moz-animation-delay: 0.04s;
   animation-delay: 0.04s;
 }
 
 .open li:nth-of-type(4) .item {
   -webkit-animation-duration: 0.49s;
-  -moz-animation-duration: 0.49s;
   animation-duration: 0.49s;
 }
 
 li:nth-of-type(4) {
   -webkit-animation-name: close-4;
-  -moz-animation-name: close-4;
   animation-name: close-4;
   -webkit-animation-timing-function: ease;
-  -moz-animation-timing-function: ease;
   animation-timing-function: ease;
   -webkit-animation-delay: 0.06s;
-  -moz-animation-delay: 0.06s;
   animation-delay: 0.06s;
 }
 
 li:nth-of-type(4) .item {
   -webkit-animation-duration: 0.51s;
-  -moz-animation-duration: 0.51s;
   animation-duration: 0.51s;
-}
-
-@-moz-keyframes open-5 {
-  0% {
-    left: 0px;
-    bottom: 0px;
-  }
-
-  60% {
-    left: 33.99187px;
-    bottom: 104.61622px;
-  }
-
-  80% {
-    left: 29.35661px;
-    bottom: 90.35037px;
-  }
-
-  100% {
-    left: 30.9017px;
-    bottom: 95.10565px;
-  }
 }
 
 @-webkit-keyframes open-5 {
@@ -971,23 +719,6 @@ li:nth-of-type(4) .item {
   }
 }
 
-@-moz-keyframes close-5 {
-  0% {
-    left: 30.9017px;
-    bottom: 95.10565px;
-  }
-
-  60% {
-    left: 37.08204px;
-    bottom: 114.12678px;
-  }
-
-  100% {
-    left: 0px;
-    bottom: 0px;
-  }
-}
-
 @-webkit-keyframes close-5 {
   0% {
     left: 30.9017px;
@@ -1026,60 +757,30 @@ li:nth-of-type(4) .item {
   left: 30.9017px;
   bottom: 95.10565px;
   -webkit-animation-name: open-5;
-  -moz-animation-name: open-5;
   animation-name: open-5;
   -webkit-animation-timing-function: ease;
-  -moz-animation-timing-function: ease;
   animation-timing-function: ease;
   -webkit-animation-delay: 0.02s;
-  -moz-animation-delay: 0.02s;
   animation-delay: 0.02s;
 }
 
 .open li:nth-of-type(5) .item {
   -webkit-animation-duration: 0.47s;
-  -moz-animation-duration: 0.47s;
   animation-duration: 0.47s;
 }
 
 li:nth-of-type(5) {
   -webkit-animation-name: close-5;
-  -moz-animation-name: close-5;
   animation-name: close-5;
   -webkit-animation-timing-function: ease;
-  -moz-animation-timing-function: ease;
   animation-timing-function: ease;
   -webkit-animation-delay: 0.08s;
-  -moz-animation-delay: 0.08s;
   animation-delay: 0.08s;
 }
 
 li:nth-of-type(5) .item {
   -webkit-animation-duration: 0.53s;
-  -moz-animation-duration: 0.53s;
   animation-duration: 0.53s;
-}
-
-@-moz-keyframes open-6 {
-  0% {
-    left: 0px;
-    bottom: 0px;
-  }
-
-  60% {
-    left: 0.0px;
-    bottom: 110.0px;
-  }
-
-  80% {
-    left: 0.0px;
-    bottom: 95px;
-  }
-
-  100% {
-    left: 0.0px;
-    bottom: 100px;
-  }
 }
 
 @-webkit-keyframes open-6 {
@@ -1126,23 +827,6 @@ li:nth-of-type(5) .item {
   }
 }
 
-@-moz-keyframes close-6 {
-  0% {
-    left: 0.0px;
-    bottom: 100px;
-  }
-
-  60% {
-    left: 0.0px;
-    bottom: 120px;
-  }
-
-  100% {
-    left: 0px;
-    bottom: 0px;
-  }
-}
-
 @-webkit-keyframes close-6 {
   0% {
     left: 0.0px;
@@ -1181,36 +865,28 @@ li:nth-of-type(5) .item {
   left: 0.0px;
   bottom: 100px;
   -webkit-animation-name: open-6;
-  -moz-animation-name: open-6;
   animation-name: open-6;
   -webkit-animation-timing-function: ease;
-  -moz-animation-timing-function: ease;
   animation-timing-function: ease;
   -webkit-animation-delay: 0s;
-  -moz-animation-delay: 0s;
   animation-delay: 0s;
 }
 
 .open li:nth-of-type(6) .item {
   -webkit-animation-duration: 0.45s;
-  -moz-animation-duration: 0.45s;
   animation-duration: 0.45s;
 }
 
 li:nth-of-type(6) {
   -webkit-animation-name: close-6;
-  -moz-animation-name: close-6;
   animation-name: close-6;
   -webkit-animation-timing-function: ease;
-  -moz-animation-timing-function: ease;
   animation-timing-function: ease;
   -webkit-animation-delay: 0.1s;
-  -moz-animation-delay: 0.1s;
   animation-delay: 0.1s;
 }
 
 li:nth-of-type(6) .item {
   -webkit-animation-duration: 0.55s;
-  -moz-animation-duration: 0.55s;
   animation-duration: 0.55s;
 }
